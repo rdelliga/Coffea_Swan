@@ -21,7 +21,7 @@ To search the dataset for the analysis, you can use the data aggregation system 
 
 dataset=/WJetsToLNu_HT*_TuneCP5*/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic*/NANOAODSIM
 
-observe that the string is composed of three parts: process/campaign/format. Instead the files for the signal are copied locally in the Coffea folder and are obtained by the merging of the files in the folder
+observe that the string is composed of three parts: process/campaign/format. Instead the files for the signal are copied locally in the Coffea folder and are obtained by the merging of the files in the folders
 
 /eos/cms/store/group/phys_higgs/cmshmm/amarini/WPHADWMLEPjj_4f_EWK_LO_TuneCP5_13TeV-madgraph-pythia8/UL2018-NANOAODSIMv9/220404_094336/
 /eos/cms/store/group/phys_higgs/cmshmm/amarini/WPLEPWMHADjj_4f_EWK_LO_TuneCP5_13TeV-madgraph-pythia8/UL2018-NANOAODSIMv9/220315_075136/
