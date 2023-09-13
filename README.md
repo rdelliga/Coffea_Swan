@@ -10,4 +10,22 @@ git push origin master
 
 the password required to push a change is a token. My accounts's default identity are rdelliga@cern.ch and rdelliga.
 
+The file cuts.ipynb contain the implementation of cuts without opening multiple files and using parallelization, which instead are impemented in cuts1.ipynb.
+The last one read a fileset.json file produced by using the scrit das.ipynb, which read the txt files for the bck events in the folder files_txt that are produced via shell by the command
+
+dasgoclient -query="file dataset=/WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM" > WJetsToLNu_HT-100To200.txt 
+
+where > WJetsToLNu_HT-100To200.txt allows to put the output of the command dasgoclient (see https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookLocatingDataSamples#CliDas) in a txt file.
+For searching the dataset for the analysis, you can use the data aggregation system (DAS) at the link https://cmsweb.cern.ch/das/ by searching
+
+dataset=/WJetsToLNu_HT*_TuneCP5*/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic*/NANOAODSIM
+
+observe that the string is composed of three parts: process/campaign/format. Instead the files for the signal are copied locally in the Coffea folder and are obtained by the merging of the files in the folder
+
+/eos/cms/store/group/phys_higgs/cmshmm/amarini/WPHADWMLEPjj_4f_EWK_LO_TuneCP5_13TeV-madgraph-pythia8/UL2018-NANOAODSIMv9/220404_094336/
+/eos/cms/store/group/phys_higgs/cmshmm/amarini/WPLEPWMHADjj_4f_EWK_LO_TuneCP5_13TeV-madgraph-pythia8/UL2018-NANOAODSIMv9/220315_075136/
+
+by using the command hadd.
+
+
 
