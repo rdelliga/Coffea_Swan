@@ -1,9 +1,13 @@
 {
-	"sig_WWjj_4f_EWK": [
-		"WPHADWMLEPjj_4f_EWK.root",
-		"WPLEPWMHADjj_4f_EWK.root"
-	],
-	"bkg_WJets": [
+	"sig_WPHADWMLEPjj_EWK": ["signal_files/WPHADWMLEPjj_EWK.root"],
+	"sig_WPLEPWMHADjj_EWK": ["signal_files/WPLEPWMHADjj_EWK.root"],
+	"sig_WPLEPZHADjj_EWK": ["signal_files/WPLEPZHADjj_EWK.root"],
+	"sig_WMLEPZHADjj_EWK": ["signal_files/WMLEPZHADjj_EWK.root"],
+	"sig_WPLEPWPHADjj_EWK": ["signal_files/WPLEPWPHADjj_EWK.root"],
+	"sig_WMLEPWMHADjj_EWK": ["signal_files/WMLEPWMHADjj_EWK.root"],
+	"sig_WPHADWMLEPjj_4f_EWK": ["signal_files/WPHADWMLEPjj_4f_EWK.root"],
+	"sig_WPLEPWMHADjj_4f_EWK": ["signal_files/WPLEPWMHADjj_4f_EWK.root"],
+	"bkg_WJets_LO": [
 		"/eos/cms/store/mc/RunIISummer20UL18NanoAODv9/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/280000/C17B82E7-01B7-9B4F-84F7-EA9703AC1CFB.root",
 		"/eos/cms/store/mc/RunIISummer20UL18NanoAODv9/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/280000/1B4B6B20-ED48-2543-8091-7C908804CE22.root",
 		"/eos/cms/store/mc/RunIISummer20UL18NanoAODv9/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/280000/220F8252-F32D-7E45-994A-FE02A4A23D99.root",
