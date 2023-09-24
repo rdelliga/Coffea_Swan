@@ -1,5 +1,5 @@
 # Coffea_Swan
-A repository for storing my analysis in coffea with the Swan Notebook
+A repository for storing my analysis in coffea with the Swan Notebook (virtual environment used: CentOS 7 gcc11)
 
 The branch master contains the codes, when you change one of them and you want to save these local changes to your remote github repository do
 
