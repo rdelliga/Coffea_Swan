@@ -10,7 +10,7 @@ git push origin master
 
 the password required to push a change is a token. My accounts's default identity are rdelliga@cern.ch and rdelliga.
 
-The file  WV_VBS_cutscheck.ipynb contains the implementation of cuts without opening multiple files and using parallelization, which instead are impemented in  WV_VBS_mainAnalysis.ipynb.
+The file  WV_VBS_cutscheck.ipynb contains the implementation of cuts without opening multiple files and without using parallelization, which instead are implemented in  WV_VBS_mainAnalysis.ipynb.
 The last one read a fileset.json file produced by using the scrit make_fileset_json.ipynb, which read the txt files for the bck events (W+jets) in the folder bkg_files_txt that are produced via shell by the command
 
 voms-proxy-init -voms cms -valid 192:00
@@ -27,7 +27,7 @@ Instead the files for the signal are copied locally inside the Coffea/signal_fil
 /eos/cms/store/group/phys_higgs/cmshmm/amarini/
 
 by using the command hadd.
-The folder histogram_files contains pkl files where histograms are saved, so one doesn't need to run the processor form the start when opening a notebook, but only needs to read the files.
+The file output.pkl contains the output of WV_VBS_mainAnalysis.ipynb, which is analyzed in the notebook WV_VBS_mainPlots.ipynb to produce plots, so one doesn't need to run the processor from the start when opening a notebook, but only needs to read the file.
 The files Events.C and Events.h are automatically generated and shows the name of all the variables of the Events (Ttree) inside the root file.
 To generate those file, you must open a .root file with root and do
 Events->MakeClass()
